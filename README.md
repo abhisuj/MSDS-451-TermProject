@@ -1,0 +1,5 @@
+This research project proposes the development of a robust, adaptive investment framework, the Adaptive Global Income and Growth (AGIG) ETF, designed to manage portfolios dynamically over time, moving beyond simple, single-period decisions (Markowitz, 1952). The fundamental concept is to make cutting-edge quantitative research—typically reserved for large hedge funds—available to all personal investors in a low-cost ETF structure.
+The starting point of this research is the Modern Portfolio Theory (MPT), pioneered by Markowitz (1952), which established the principle of maximizing return for a given level of risk. However, MPT will need to be extended to adjust to changing market conditions and times.
+
+The AGIG ETF overcomes these limitations by integrating Artificial Intelligence (AI) and Operations Research (OR). The fund's objective is to provide personalized financial planning for all age groups, optimizing for high Growth for younger investors and controlled Income (consistent withdrawals, e.g., the 4% rule) for retirees, via dynamic risk control.
+  
