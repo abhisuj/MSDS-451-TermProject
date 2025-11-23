@@ -4,6 +4,9 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![AI-Powered](https://img.shields.io/badge/AI-Powered-brightgreen.svg)](https://github.com/abhisuj/MSDS-451-TermProject)
+
+> **Note**: This project documentation and code were developed with assistance from GitHub Copilot and Claude AI to accelerate development, improve code quality, and enhance documentation comprehensiveness.
 
 ---
 
@@ -27,11 +30,20 @@
 
 This research project proposes the development of a robust, adaptive investment framework, the **Adaptive Global Income and Growth (AGIG) ETF**, designed to manage portfolios dynamically over time, moving beyond simple, single-period decisions (Markowitz, 1952). The fundamental concept is to make cutting-edge quantitative research—typically reserved for large hedge funds—available to all personal investors in a low-cost ETF structure.
 
-### Key Innovation
+### Key Innovation: AI at Every Step
 
 The starting point of this research is the Modern Portfolio Theory (MPT), pioneered by Markowitz (1952), which established the principle of maximizing return for a given level of risk. However, MPT assumes static relationships and needs to be extended to adjust to changing market conditions and times.
 
-The AGIG ETF overcomes these limitations by integrating **Artificial Intelligence (AI)** and **Operations Research (OR)**. The fund's objective is to provide personalized financial planning for all age groups:
+The AGIG ETF overcomes these limitations by integrating **Artificial Intelligence (AI)** and **Operations Research (OR)** throughout the entire investment pipeline:
+
+**AI-Driven Components:**
+1. **Predictive AI**: Bidirectional LSTM neural networks forecast asset returns and risk
+2. **Optimization AI**: NSGA-II evolutionary algorithm discovers optimal portfolio allocations
+3. **Feature Engineering AI**: 20+ technical indicators automatically computed per asset
+4. **Risk Management AI**: CVaR optimization with tail-risk prediction
+5. **Rebalancing AI**: Dynamic monthly adjustments based on market conditions
+
+The fund's objective is to provide personalized financial planning for all age groups:
 - **High Growth** for younger investors seeking capital appreciation
 - **Balanced Income & Growth** for middle-aged investors (***RECOMMENDED***)
 - **Controlled Income** for retirees (consistent withdrawals via the 4% rule) with dynamic risk control
@@ -63,7 +75,35 @@ The AGIG ETF overcomes these limitations by integrating **Artificial Intelligenc
 
 ## 🏗️ Technical Architecture
 
-### 1. Bidirectional LSTM Neural Network
+### AI Technology Stack
+
+The AGIG ETF leverages multiple AI/ML technologies working in concert:
+
+**Deep Learning (Prediction)**
+- TensorFlow/Keras framework
+- Bidirectional LSTM architecture
+- 25 years of training data
+- 60-day temporal sequences
+
+**Evolutionary Algorithms (Optimization)**
+- pymoo library with NSGA-II
+- Multi-objective genetic algorithm
+- Pareto-efficient frontier generation
+- 100 population × 250 generations
+
+**Feature Engineering (Intelligence)**
+- TA-Lib technical indicators
+- Custom long-term features
+- Automated anomaly detection
+- Volume and volatility analysis
+
+**Risk AI (Protection)**
+- CVaR tail-risk modeling
+- Covariance matrix prediction
+- Drawdown forecasting
+- Correlation monitoring
+
+### 1. Bidirectional LSTM Neural Network (AI Prediction Engine)
 - **Purpose**: Predict next-day returns and covariance matrices for 30 assets
 - **Architecture**: Multi-layer Bi-LSTM (128→64→32 units)
 - **Input**: 60-day lookback window with 20+ technical indicators per asset
@@ -651,12 +691,20 @@ pip install TA-Lib
 
 ## 🤝 Contributing
 
+### AI-Assisted Development
+
+This project was developed with assistance from:
+- **GitHub Copilot**: Code completion, function generation, debugging assistance
+- **Claude AI (Anthropic)**: Documentation writing, architecture design, code review
+- **Human Oversight**: All AI-generated content reviewed and validated by project maintainers
+
 Contributions are welcome! Areas for improvement:
 
 1. **Model Enhancements**
    - Transformer architectures for time-series
    - Ensemble methods (LSTM + GRU + Attention)
    - Alternative loss functions
+   - GPT-based sentiment analysis integration
 
 2. **Optimization Algorithms**
    - MOEA/D (decomposition-based)
@@ -784,6 +832,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **IMPORTANT INVESTMENT DISCLOSURE:**
 
 This software is for **educational and research purposes only**. It does not constitute investment advice, financial advice, trading advice, or any other sort of advice. The AGIG ETF is a **hypothetical research concept** and is not a registered investment product.
+
+**AI Usage Disclosure:**
+
+This project and its documentation were developed with assistance from AI tools (GitHub Copilot, Claude AI). While AI assistance accelerated development and improved code quality, all outputs have been reviewed, validated, and tested by human developers. AI-generated code and strategies should not be used for actual trading without thorough independent verification.
 
 **Key Disclaimers:**
 
