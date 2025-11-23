@@ -688,30 +688,75 @@ git push origin feature/your-feature-name
 
 ### Academic Papers
 
-1. **Markowitz, H. (1952).** "Portfolio Selection." *Journal of Finance*, 7(1), 77-91.
-   - Foundation of Modern Portfolio Theory
+#### Foundation & Theory
 
-2. **Deb, K., et al. (2002).** "A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II." *IEEE Transactions on Evolutionary Computation*, 6(2), 182-197.
-   - NSGA-II algorithm specification
+1. **Markowitz, H. (1952).** "Portfolio Selection." *The Journal of Finance*, 7(1), 77-91. https://doi.org/10.2307/2975974
+   - Seminal paper establishing Modern Portfolio Theory and mean-variance optimization
+
+2. **Markowitz, H. (1991).** "Foundations of Portfolio Theory." *The Journal of Finance*, 46(2), 466-477. https://doi.org/10.2307/2328831
+   - Theoretical extensions and refinements to MPT framework
 
 3. **Hochreiter, S., & Schmidhuber, J. (1997).** "Long Short-Term Memory." *Neural Computation*, 9(8), 1735-1780.
-   - LSTM architecture foundation
+   - Foundation of LSTM architecture for sequence modeling
+
+#### Machine Learning & Optimization
+
+4. **Ban, G., El Karoui, N., & Lim, A. (2018).** "Machine Learning and Portfolio Optimization." *Management Science*, 64(3), 1136-1154. https://www.jstor.org/stable/48748004
+   - Integration of ML with portfolio optimization, Performance-Based Regularization (PBR) for covariance estimation
+
+5. **Deb, K., et al. (2002).** "A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II." *IEEE Transactions on Evolutionary Computation*, 6(2), 182-197.
+   - Complete NSGA-II algorithm specification and theoretical foundations
+
+6. **Kaucic, M., Moradi, M., & Mirzazadeh, M. (2019).** "Portfolio optimization by improved NSGA-II and SPEA 2 based on different risk measures." *Financial Innovation*, 5(1), 1-28. https://doi.org/10.1186/s40854-019-0140-6
+   - Application of NSGA-II to portfolio problems with CVaR, Sharpe ratio, and multiple risk measures
+
+7. **Gaurav, A., Baishnab, K., & Singh, P. K. (2025).** "Intelligent ESG portfolio optimization: A multi-objective AI-driven framework for sustainable investments in the Indian stock market." *Sustainable Futures*, 9. https://doi.org/10.1016/j.sftr.2025.100832
+   - Multi-objective AI frameworks, Bi-LSTM performance validation for portfolio optimization
+
+#### Multi-Period & Advanced Methods
+
+8. **Liu, Y., Zhang, W., & Xu, W. (2012).** "Fuzzy multi-period portfolio selection optimization models using multiple criteria." *Automatica*, 48(12), 3042-3053. https://doi.org/10.1016/j.automatica.2012.08.036
+   - Multi-period portfolio optimization with fuzzy logic and multiple criteria
+
+9. **Ren, X., Sun, R., Jiang, Z., Stefanidis, A., Liu, H., & Su, J. (2025).** "Time series is not enough: Financial Transformer Reinforcement Learning for portfolio management." *Neurocomputing*, 647. https://doi.org/10.1016/j.neucom.2025.130451
+   - Advanced Transformer + RL architectures for portfolio management (FTRL methodology)
 
 ### Books
 
 - **Grinold, R. C., & Kahn, R. N. (2000).** *Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Controlling Risk.* McGraw-Hill.
+  - Industry-standard reference for active portfolio management
 
 - **Lopez de Prado, M. (2018).** *Advances in Financial Machine Learning.* Wiley.
+  - Modern ML techniques applied to finance, including backtesting and feature engineering
 
 - **Deb, K. (2001).** *Multi-Objective Optimization Using Evolutionary Algorithms.* Wiley.
+  - Comprehensive treatment of multi-objective optimization theory and algorithms
+
+### Industry Resources & Guides
+
+- **Chen, J. (2025).** "Conditional Value at Risk (CVaR): Expert Guide, Uses, and Formula." *Investopedia*. https://www.investopedia.com/terms/c/conditional_value_at_risk.asp
+  - Practical guide to CVaR calculation and interpretation for tail risk management
+
+- **Waterworth, K. (2025).** "2 Data Center REITs to Consider in 2025." *The Motley Fool*. https://www.fool.com/investing/stock-market/market-sectors/real-estate-investing/reit/data-center-reit/
+  - Alternative asset analysis: data center REITs and real estate investment trends
 
 ### Software & Libraries
 
 - **TensorFlow/Keras**: https://www.tensorflow.org/
+  - Deep learning framework for Bi-LSTM implementation
+
 - **pymoo**: https://pymoo.org/
-- **Zipline**: https://github.com/quantopian/zipline
-- **PyFolio**: https://github.com/quantopian/pyfolio
+  - Multi-objective optimization library with NSGA-II, MOEA/D, and other algorithms
+  - **NSGA-II Documentation**: "NSGA-II: Non-dominated Sorting Genetic Algorithm." https://pymoo.org/algorithms/moo/nsga2.html
+
+- **Zipline Reloaded**: https://github.com/quantopian/zipline
+  - Event-driven backtesting engine with realistic transaction costs and slippage
+
+- **PyFolio Reloaded**: https://github.com/quantopian/pyfolio
+  - Portfolio performance and risk analysis library
+
 - **TA-Lib**: https://ta-lib.org/
+  - Technical analysis library for indicator calculation (RSI, MACD, Bollinger Bands, etc.)
 
 ---
 
